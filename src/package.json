@@ -1,0 +1,27 @@
+{
+  "name": "server-fresh",
+  "version": "1.0.0",
+  "description": "Fresh API server for sensor data management",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scadaniel/server-fresh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scadaniel/server-fresh/issues"
+  },
+  "homepage": "https://github.com/scadaniel/server-fresh#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
