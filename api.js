@@ -5,8 +5,17 @@ const fs = require('fs');
 const app = express();
 const port = 8000;
 
+
+
 app.use(express.json());
-app.use(cors({ origin: 'http://estacion.scasoftware.com.ar/' }));
+app.use(cors({ origin: 'http://estacion.scasoftware.com.ar' }));
+
+// Configura CORS para permitir el origen específico
+// const corsOptions = {
+//   origin: 'https://estacion.scasoftware.com.ar', // Origen permitido
+//   optionsSuccessStatus: 200 // Para compatibilidad con navegadores antiguos
+// };
+// app.use(cors(corsOptions));
 
 const db = mysql.createConnection({
     host: 'mysql-scadaniel-scadaniel-db.e.aivencloud.com',
