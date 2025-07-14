@@ -8,7 +8,7 @@ const port = 8000;
 
 
 app.use(express.json());
-app.use(cors({ origin: 'http://estacion.scasoftware.com.ar' }));
+app.use(cors({ origin: 'https://estacion.scasoftware.com.ar' }));
 
 // Configura CORS para permitir el origen específico
 // const corsOptions = {
