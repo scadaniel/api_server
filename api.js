@@ -6,7 +6,7 @@ const app = express();
 const port = 8000;
 
 app.use(express.json());
-app.use(cors({ origin: 'http://scasoftw.com.ar' }));
+app.use(cors({ origin: 'http://estacion.scasoftware.com.ar/' }));
 
 const db = mysql.createConnection({
     host: 'mysql-scadaniel-scadaniel-db.e.aivencloud.com',
