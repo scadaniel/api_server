@@ -8,7 +8,7 @@ const char* password = "marielmariel2";
 const char* server = "api-server-u8wj.onrender.com";
 const int httpsPort = 443; // Puerto HTTPS estándar
 
-#define DHTPIN D2         // Pin del sensor DHT
+#define DHTPIN 2         // Pin del sensor DHT
 #define DHTTYPE DHT11     // Tipo de sensor
 #define ANALOG_PIN A0     // Pin analógico para leer el valor del sensor
 
